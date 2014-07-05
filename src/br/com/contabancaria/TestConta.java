@@ -24,8 +24,8 @@ public class TestConta {
 
         conta.atualiza(0.1);
         contaCorrente.atualiza(0.1);
-        contaPoupanca.atualiza(0.1);
-        
+        contaPoupanca.atualiza(0.2);
+        /*teste*/
         System.out.println(conta.getSaldo());
         System.out.println(contaCorrente.getSaldo());
         System.out.println(contaPoupanca.getSaldo());
